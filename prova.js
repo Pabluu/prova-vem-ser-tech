@@ -60,3 +60,9 @@ console.log(numeroSolitario([12, 17, 15, 19, 22, 17, 19, 12]))
 // 4. Qual é a saída do código a seguir?
 // Alternativa "E"
 // 1 1 2 1 2 3 1 2 3 4
+
+
+// 5. Qual é o resultado da expressão booleana abaixo?
+// Alternativa "A"
+// true
+
