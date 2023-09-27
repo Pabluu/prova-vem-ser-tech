@@ -41,3 +41,19 @@ function quantidadePalavras(frase) {
 console.log(quantidadePalavras('façaMercadoNoIfoodEntregamosTudoOQueVocêPrecisaNaPortaDaSuaCasa'))
 
 
+// 3. Número Solitário
+
+function numeroSolitario(valores){
+  novoArray = []
+
+  for(let valor of valores) {
+    if(!novoArray.includes(valor)){
+      novoArray.push(valor)
+    }
+  }
+
+  return novoArray
+}
+
+console.log(numeroSolitario([12, 17, 15, 19, 22, 17, 19, 12]))
+
