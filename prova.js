@@ -21,3 +21,23 @@ function conversorHorario(horasFormatada) {
 
 console.log(conversorHorario('06:15:25PM'))
 console.log(conversorHorario('06:15:25AM'))
+
+// 2. Quantidade de Palavras
+function quantidadePalavras(frase) {
+  let indexParada = 0
+  let novaFrase = []
+
+  for (let index in frase) {
+    let letra = frase[index]
+    if (letra.toUpperCase() === letra) {
+      novaFrase.push(frase.substring(indexParada, index))
+      indexParada = index
+    }
+  }
+
+  return novaFrase.length
+}
+
+console.log(quantidadePalavras('façaMercadoNoIfoodEntregamosTudoOQueVocêPrecisaNaPortaDaSuaCasa'))
+
+
