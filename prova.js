@@ -66,3 +66,6 @@ console.log(numeroSolitario([12, 17, 15, 19, 22, 17, 19, 12]))
 // Alternativa "A"
 // true
 
+// 6. Qual o valor da saída do código abaixo?
+// Alternativa "B"
+// 2
